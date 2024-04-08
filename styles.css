@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    font-family: Helvetica;
+    color: aliceblue;
+}
+
+.nav, a{
+    /* Used for the nav bar to keep the elements to the left, have the font as Arial anf a size of 17px */
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 45px;
+} .active{
+      /* Used to show which element in the nav bar is currently active and will colour it white and underline it */
+      font-weight: bold;
+      color: white;
+      text-decoration: underline;
+  }
+
+.title{
+    /* User for every page to center the heading */
+    padding-top: 15px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+} .header{
+      background-color: rgba(66,158,255,0.85);
+  }
