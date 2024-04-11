@@ -1,29 +1,50 @@
-h1 {
-    text-align: center;
-    font-family: Helvetica;
-    color: aliceblue;
+body{
+    background-color: rgba(44,44,44,0.99);
 }
 
 .nav, a{
     /* Used for the nav bar to keep the elements to the left, have the font as Arial anf a size of 17px */
-    padding: 14px 16px;
-    font-size: 17px;
+    padding-top: 10px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
     display: inline-block;
     line-height: 45px;
-} .active{
-      /* Used to show which element in the nav bar is currently active and will colour it white and underline it */
-      font-weight: bold;
-      color: white;
-      text-decoration: underline;
-  }
+    text-align: right;
+    float: right;
+}
 
+.header{
+    position: relative;
+
+}
+
+.welcome{
+    position: relative;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-left: 35px;
+    font-size: 35px;
+} .intro {
+    padding-left: 35px;
+    font-size: 25px;
+    color: white;
+      font-family: Helvetica, sans-serif;
+  }
 .title{
     /* User for every page to center the heading */
-    padding-top: 15px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-} .header{
-      background-color: rgba(66,158,255,0.85);
+    font-size: 65px;
+    color: white;
+    padding-left: 35px;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} .title::first-letter{
+      background: linear-gradient(to left, #1b4a92, #429eff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
   }
