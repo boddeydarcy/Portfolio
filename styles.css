@@ -1,13 +1,13 @@
 body{
-    background-color: rgba(44,44,44,0.99);
+    background-color: #FEFDFF;
 }
 
 .nav, a{
     /* Used for the nav bar to keep the elements to the left, have the font as Arial anf a size of 17px */
     padding-top: 10px;
-    padding-right: 50px;
+    padding-right: 25px;
     font-size: 20px;
-    color: white;
+    color: #EB5411;
     font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     line-height: 45px;
@@ -17,34 +17,33 @@ body{
 
 .header{
     position: relative;
-
 }
 
-.welcome{
+.text{
+    padding-left: 35px;
+    font-size: 20px;
+    color: #8eb1c7;
+    font-family: Helvetica, sans-serif;
+}
+.headerText{
     position: relative;
-    color: white;
+    color: #b02e0c;
     font-family: Helvetica, sans-serif;
     padding-top: 30px;
     padding-left: 35px;
     font-size: 35px;
+    font-weight:bold;
 } .intro {
     padding-left: 35px;
     font-size: 25px;
-    color: white;
-      font-family: Helvetica, sans-serif;
+    color: #8eb1c7;
+    font-family: Helvetica, sans-serif;
   }
 .title{
     /* User for every page to center the heading */
     font-size: 65px;
-    color: white;
+    color: #EB5411;
     padding-left: 35px;
     text-align: left;
     font-family: Helvetica, sans-serif;
-    background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} .title::first-letter{
-      background: linear-gradient(to left, #1b4a92, #429eff);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
+}
